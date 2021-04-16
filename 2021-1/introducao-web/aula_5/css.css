@@ -1,0 +1,137 @@
+*{
+    margin: 0 auto;
+}
+
+h3{
+    margin: 10px auto;
+}
+
+table, td, th{
+    border-bottom: solid 1px #e2e2e2;
+    border-collapse: collapse;
+    padding: 7px;
+}
+
+th{
+    color: darkgrey;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+}
+
+td{
+    text-align: center;
+}
+
+.tudo{
+    background-color: #e2e2e2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linha{
+    clear: both;
+}
+
+#cabecalho{
+    background-color: #162e58;
+    min-height: 100px;
+    padding: 50px 30px 10px 30px;
+}
+
+#h1titulocab{
+    color: #fff;
+    font-size: 18px; 
+}
+
+#classificacao{
+    width: 60%;
+     ;
+    padding: 20px;
+}
+
+.tdNomedoclube{
+    text-align: left;
+}
+
+.thnomeclube{
+    width: 50%;
+}
+
+.tdposicaoclub{
+    width: 4%;
+}
+
+.h2class{
+    padding: 12px;   
+}
+
+#goleadores{
+    width: 60%;
+    background-color: #e2e2e2;
+    padding: 20px;
+}
+
+#partidas{
+    width: 60%;
+    background-color: #e2e2e2;
+    padding: 20px;
+}
+
+#tableclassi{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#tablegoleadores{
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+#tablepartida{
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+.ultimas5{
+    width: 20%;
+}
+
+
+.tdimgclub{
+    width: 5%;
+}
+
+.imgclub{
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.divvitoria{
+    background-image: url('./img/v.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+.divderrota{
+    background-image: url('./img/d.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+.divempate{
+    background-image: url('./img/e.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
